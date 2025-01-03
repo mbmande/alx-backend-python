@@ -1,25 +1,24 @@
 #!/usr/bin/env python3
 
-"""==============================================================
-slhigjg
-dgdghdgjsg
-sfkhgsg
-
+"""Module that contains a type-annotated function zoom_array
+that takes a tuple of integers and returns a tuple of integers
+with a factor of 2 or 3.0.
+The type of the input tuple is Tuple and the type of
+the output tuple is Tuple
 """
 
-
-# jglgslgkdglgsgslfkspfsk
+# import Tuple class from the typing module
 from typing import Tuple
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
-    """ =========================sgklhhsf
-    gsghskgjslfkfsfs
-    ffsgjslgsf'sgs
-    ggsgjosggs
-    ffjsfs
-
-
+    """ Change the annotation for 1st and return the type
+        to Tuple
+        to indicate that the function accepts and
+        returns a tuple of any type.
+        Also, change type of array to tuple() instead of list[].
+        Lastly, change the float value to interger
+        when calling zoom_array
     """
     zoomed_in: Tuple = tuple(
         item for item in lst
