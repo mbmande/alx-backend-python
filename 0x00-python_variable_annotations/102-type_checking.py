@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 
 """==============================================================
+slhigjg
+dgdghdgjsg
+sfkhgsg
+
 """
 
 
@@ -9,7 +13,13 @@ from typing import Tuple
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
-    """ =========================
+    """ =========================sgklhhsf
+    gsghskgjslfkfsfs
+    ffsgjslgsf'sgs
+    ggsgjosggs
+    ffjsfs
+
+
     """
     zoomed_in: Tuple = tuple(
         item for item in lst
